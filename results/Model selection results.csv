@@ -1,0 +1,13 @@
+condition,percentile,"model1 (k_diff_type, probability_type)","model2 (k_diff_type, probability_type)",acceptance_rate_M1 %,acceptance_rate_M2 %,BF
+dmso,0.2,"('constant', 'varying')","('constant', 'constant')",25.25,18.625,1.3557046979865772
+dmso,0.2,"('varying', 'varying')","('constant', 'constant')",31.925,18.625,1.7140939597315434
+dmso,0.2,"('varying', 'constant')","('constant', 'constant')",24.2,18.625,1.2993288590604026
+dmso,0.2,"('varying', 'varying')","('constant', 'varying')",31.925,25.25,1.264356435643564
+dmso,0.2,"('constant', 'varying')","('varying', 'constant')",25.25,24.2,1.043388429752066
+dmso,0.2,"('varying', 'varying')","('varying', 'constant')",31.925,24.2,1.3192148760330578
+dapt,0.2,"('constant', 'varying')","('constant', 'constant')",23.9375,25.4375,0.941031941031941
+dapt,0.2,"('varying', 'varying')","('constant', 'constant')",24.25,25.4375,0.9533169533169532
+dapt,0.2,"('varying', 'constant')","('constant', 'constant')",26.375,25.4375,1.0368550368550369
+dapt,0.2,"('varying', 'varying')","('constant', 'varying')",24.25,23.9375,1.0130548302872062
+dapt,0.2,"('constant', 'varying')","('varying', 'constant')",23.9375,26.375,0.9075829383886256
+dapt,0.2,"('varying', 'varying')","('varying', 'constant')",24.25,26.375,0.919431279620853

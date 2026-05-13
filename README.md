@@ -83,7 +83,7 @@ Open and run `notebooks/main.ipynb` in order. The notebook is divided into clear
 | Prepare folder | Download zip. When setting up the extract path remove '\gogolou_2026_notch-main' automatically added at the end. If not, you will get a 'gogolou_2026_notch-main' folder within a 'gogolou_2026_notch-main' folder. Either way it's import you use the folder immediately containing the package files. |
 | Upload | Upload the correct 'gogolou_2026_notch-main' folder under My Drive (on Google Drive) |
 | Setting up the main script | Open script.ipynb and follow the instructions on mounting your google drive to the google colab notebook |
-| Set up paths | Follow instructions under User inputs to set up your paths |
+| Set up name path | Follow instructions under User inputs to set up your name path |
 | Hit Run all | This will run the entire script that generated data and figures for the manuscript |
 | Load data | Reads all CSVs from `empirical_data/`, computes neural / progenitor / glial fractions |
 | ABC – Untreated | Runs 10⁶-sample ABC inference against DMSO data across all 4 model variants |

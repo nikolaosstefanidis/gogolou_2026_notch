@@ -76,8 +76,6 @@ Two separate CSVs are expected — one for the SOX10/S100B staining and one for 
 ---
 ### Running the analysis
 
-Open and run `notebooks/main.ipynb` in order. The notebook is divided into clearly labelled sections:
-
 | Step | What it does |
 |------|-------------|
 | Prepare folder | Download zip. When setting up the extract path remove '\gogolou_2026_notch-main' automatically added at the end. If not, you will get a 'gogolou_2026_notch-main' folder within a 'gogolou_2026_notch-main' folder. Either way it's import you use the folder immediately containing the package files. |

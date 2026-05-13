@@ -78,12 +78,14 @@ Two separate CSVs are expected — one for the SOX10/S100B staining and one for 
 
 | Step | What it does |
 |------|-------------|
-| Prepare folder | Download zip. When setting up the extract path remove '\gogolou_2026_notch-main' automatically added at the end. If not, you will get a 'gogolou_2026_notch-main' folder within a 'gogolou_2026_notch-main' folder. Either way it's import you use the folder immediately containing the package files. |
+| Prepare folder | Download zip. When setting up the extract path remove '\gogolou_2026_notch-main' automatically added at the end. If not, you will get a 'gogolou_2026_notch-main' folder within a 'gogolou_2026_notch-main' folder. Either way it's important you use the folder immediately containing the package files. |
 | Upload | Upload the correct 'gogolou_2026_notch-main' folder under My Drive (on Google Drive) |
 | Setting up the main script | Open script.ipynb and follow the instructions on mounting your google drive to the google colab notebook |
 | Set up name path | Follow instructions under User inputs to set up your name path |
 | Hit Run all | This will run the entire script that generated data and figures for the manuscript |
 | Load data | Reads all CSVs from `empirical_data/`, computes neural / progenitor / glial fractions |
+| Extract data | Extracts all technical replicates across all biological replicates to be used in Approximate Bayesian Computation (ABC) |
+| Import construct_model | Imports every equation and distance function needed for the models |
 | ABC – Untreated | Runs 10⁶-sample ABC inference against DMSO data across all 4 model variants |
 | Filter posteriors | Accepts the top 0.2% of samples by distance `D` | 
 | Plotting | Generates manuscript figures 5D-H |
@@ -94,6 +96,6 @@ Two separate CSVs are expected — one for the SOX10/S100B staining and one for 
 | Statistics | Computes Jensen–Shannon divergence + permutation tests for comparisons shown in figures 5J-P |
 | Statistics | Computes descriptive statistics for Notch inhibited posteriors
 
-All outputs (`.png`, `.pdf`, `.csv`) are saved automatically to `results/`.
+All outputs (`.png`, `.pdf`, `.csv`) are saved automatically to `reproduced_results/`.
 
 ---
